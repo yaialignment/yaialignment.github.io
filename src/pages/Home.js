@@ -68,16 +68,16 @@ function Home() {
   return (
     <div className="home">
       <Helmet>
-        <title>Yale AI Alignment - Shaping the Future of AI Safety</title>
+        <title>Yale Artificial Intelligence Alignment</title>
         <meta 
           name="description" 
-          content="Yale AI Alignment is dedicated to advancing responsible AI development through research, education, and community engagement." 
+          content="We are a branch of a student group dedicated to advancing responsible AI development through discussion, career development, and community engagement." 
         />
       </Helmet>
       <section className="hero">
         <div className="hero-content">
-          <h1>Shaping the Future of AI Safety</h1>
-          <p className="hero-subtitle">Yale AI Alignment is dedicated to advancing responsible AI development through research, education, and community engagement.</p>
+          <h1>Yale Artificial Intelligence Alignment</h1>
+          <p className="hero-subtitle">We are a branch of a student group dedicated to advancing responsible AI development through discussion, career development, and community engagement.</p>
           <div className="hero-buttons">
             <Link to="https://forms.gle/vmNG2pdZBcdwdU1X6" className="primary-button">YAIA Interest Form</Link>
             <Link to="https://join.slack.com/t/yaleaialignment/shared_invite/zt-2tbqdofqr-AyCDedQdqxYtToi994IR6w" className="secondary-button">YAIA Community Slack</Link>
