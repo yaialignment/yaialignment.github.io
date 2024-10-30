@@ -25,7 +25,8 @@ function Footer() {
         </div>
       </div>
       <div className="footer-bottom">
-        <p>&copy; 2024 Yale AI Alignment. All rights reserved.</p>
+        <p> Subsidiary of Yale Effective Altruism. 
+          This website is published by Yale College students and Yale University is not responsible for its contents. The activities on this website are not supervised or endorsed by Yale and information contained on this website does not necessarily reflect the opinions or official positions of the University. All rights are reserved to Yale University for the Yale name and trademark. </p>
       </div>
     </footer>
   );
