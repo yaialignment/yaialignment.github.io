@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/yaleaia.org/static/css/main.a3fa5076.css",
-    "main.js": "/yaleaia.org/static/js/main.2549217e.js",
+    "main.js": "/yaleaia.org/static/js/main.7d20b9c5.js",
     "static/js/453.3a54d591.chunk.js": "/yaleaia.org/static/js/453.3a54d591.chunk.js",
     "index.html": "/yaleaia.org/index.html",
     "main.a3fa5076.css.map": "/yaleaia.org/static/css/main.a3fa5076.css.map",
-    "main.2549217e.js.map": "/yaleaia.org/static/js/main.2549217e.js.map",
+    "main.7d20b9c5.js.map": "/yaleaia.org/static/js/main.7d20b9c5.js.map",
     "453.3a54d591.chunk.js.map": "/yaleaia.org/static/js/453.3a54d591.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a3fa5076.css",
-    "static/js/main.2549217e.js"
+    "static/js/main.7d20b9c5.js"
   ]
 }
