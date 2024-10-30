@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/yaleaia.org/static/css/main.a3fa5076.css",
-    "main.js": "/yaleaia.org/static/js/main.7d20b9c5.js",
-    "static/js/453.3a54d591.chunk.js": "/yaleaia.org/static/js/453.3a54d591.chunk.js",
-    "index.html": "/yaleaia.org/index.html",
-    "main.a3fa5076.css.map": "/yaleaia.org/static/css/main.a3fa5076.css.map",
-    "main.7d20b9c5.js.map": "/yaleaia.org/static/js/main.7d20b9c5.js.map",
-    "453.3a54d591.chunk.js.map": "/yaleaia.org/static/js/453.3a54d591.chunk.js.map"
+    "main.css": "/static/css/main.a3fa5076.css",
+    "main.js": "/static/js/main.e7b2ed5f.js",
+    "static/js/453.3a54d591.chunk.js": "/static/js/453.3a54d591.chunk.js",
+    "index.html": "/index.html",
+    "main.a3fa5076.css.map": "/static/css/main.a3fa5076.css.map",
+    "main.e7b2ed5f.js.map": "/static/js/main.e7b2ed5f.js.map",
+    "453.3a54d591.chunk.js.map": "/static/js/453.3a54d591.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a3fa5076.css",
-    "static/js/main.7d20b9c5.js"
+    "static/js/main.e7b2ed5f.js"
   ]
 }
