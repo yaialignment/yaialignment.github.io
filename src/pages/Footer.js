@@ -7,7 +7,7 @@ function Footer() {
       <div className="footer-content">
         <div className="footer-section">
           <h3>YAIA</h3>
-          <p>Shaping the future of AI safety and ethics</p>
+          <p>Shaping the future of AI safety</p>
         </div>
         <div className="footer-section">
           <h3>Quick Links</h3>

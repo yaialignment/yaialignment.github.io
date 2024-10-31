@@ -40,42 +40,16 @@ function About() {
           </div>
         </div>
       </section>
-
-      <section className="team">
-        <div className="container">
-          <h2>Our Leadership and Advisory</h2>
-          <div className="team-grid">
-            <div className="team-member">
-              <div className="member-photo"></div>
-              <h3>Jason Abohwo</h3>
-              <p className="role">N/A</p>
-            </div>
-            <div className="team-member">
-              <div className="member-photo"></div>
-              <h3>Yejun Yun</h3>
-              <p className="role">N/A</p>
-            </div>
-            <div className="team-member">
-              <div className="member-photo"></div>
-              <h3>Tzu Kit Chan</h3>
-              <p className="role">N/A</p>
-            </div>
-            <div className="team-member">
-              <div className="member-photo"></div>
-              <h3>Neav Topaz</h3>
-              <p className="role">N/A</p>
-              <p></p>
-            </div>
-          </div>
-        </div>
-      </section>
+   
+     
 
 
       <section className="join-cta">
         <div className="container">
           <h2>Join Our Mission</h2>
-          <p>Help shape the future of AI development</p>
-          <Link to="/join" className="cta-button">Get Involved</Link>
+          <p>Help shape the future of AI development at Yale. Whether you're a student, 
+          researcher, or faculty member, there's a place for you in our community.</p>
+          <Link to="https://join.slack.com/t/yaleaialignment/shared_invite/zt-2tbqdofqr-AyCDedQdqxYtToi994IR6w" className="cta-button">Get Involved</Link>
         </div>
       </section>
     </div>
