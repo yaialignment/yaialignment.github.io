@@ -135,8 +135,11 @@
   height: 150px;
   border-radius: 50%;
   background-color: var(--light-gray);
+  background-size: cover;
+  background-position: center;
   margin: 0 auto 1.5rem;
 }
+
 
 .role {
   color: var(--primary-dark-blue);
@@ -183,11 +186,13 @@
 
 .join-cta h2 {
   margin-bottom: 1rem;
+  color: var(--text-primary-dark)
 }
 
 .join-cta p {
   margin-bottom: 2rem;
 }
+
 
 /* Section headers */
 section h2 {

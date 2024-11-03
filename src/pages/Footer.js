@@ -7,23 +7,20 @@ function Footer() {
       <div className="footer-content">
         <div className="footer-section">
           <h3>YAIA</h3>
-          <p>Shaping the future of AI safety and ethics</p>
+          <p>Shaping the future of AI safety</p>
         </div>
         <div className="footer-section">
           <h3>Quick Links</h3>
           <ul>
             <li><a href="/">Home</a></li>
             <li><a href="/about">About</a></li>
-            <li><a href="/events">Events</a></li>
-            <li><a href="/contact">Contact</a></li>
           </ul>
         </div>
         <div className="footer-section">
           <h3>Connect</h3>
           <ul>
-            <li><a href="#">Twitter</a></li>
-            <li><a href="#">LinkedIn</a></li>
-            <li><a href="#">GitHub</a></li>
+            <li><a href="https://forms.gle/vmNG2pdZBcdwdU1X6">Interest Form</a></li>
+            <li><a href="https://join.slack.com/t/yaleaialignment/shared_invite/zt-2tbqdofqr-AyCDedQdqxYtToi994IR6w">Slack</a></li>
           </ul>
         </div>
       </div>

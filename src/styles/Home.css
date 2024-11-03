@@ -36,6 +36,7 @@
 }
 
 body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   background-color: var(--background-dark);
   color: var(--text-primary-dark);
 }
@@ -45,6 +46,8 @@ section {
   padding: 8rem 0;
   margin-top: -1px; 
 }
+
+
 
 
 .hero {
@@ -256,6 +259,10 @@ section {
   padding-top: 10rem;
 }
 
+.cta-section h2 {
+  color: var(--text-primary-dark)
+}
+
 .cta-button {
   display: inline-block;
   background-color: var(--white);
@@ -265,6 +272,8 @@ section {
   text-decoration: none;
   font-weight: 600;
   margin-top: 2rem;
+  margin-left: .5rem;
+  margin-right: .5rem;
   transition: var(--transition-standard);
 }
 
@@ -616,4 +625,218 @@ body {
   line-height: 1.6;
   color: var(--text-secondary-light);
   margin-bottom: 2rem;
+}
+
+
+/* Staggered features styles for light mode */
+.features-staggered {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  margin-top: 3rem;
+}
+
+.staggered-feature-card {
+  display: flex;
+  opacity: 0;
+  transform: translateX(-100px);
+  transition: all 0.6s ease-out;
+  width: 100%;
+  max-width: 800px;
+}
+
+.staggered-feature-card.right {
+  margin-left: auto;
+  transform: translateX(100px);
+}
+
+.staggered-feature-card.visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.staggered-content {
+  background-color: var(--card-background-light);
+  padding: 2rem;
+  border-radius: var(--border-radius-standard);
+  box-shadow: var(--shadow-standard-light);
+  width: 100%;
+  transition: var(--transition-standard);
+}
+
+.staggered-content h3 {
+  color: var(--text-primary-light);
+  margin-bottom: 1rem;
+}
+
+.staggered-content p {
+  color: var(--text-secondary-light);
+  line-height: 1.6;
+}
+
+.staggered-content:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+}
+
+.features-section {
+  background-color: var(--background-light);
+  padding: 8rem 0;
+  color: var(--text-primary-light);
+  padding-top: 10rem;
+}
+
+.features-section h2 {
+  color: var(--text-primary-light);
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+/* Responsive design for staggered features */
+@media (max-width: 768px) {
+  .features-staggered {
+    gap: 2rem;
+  }
+
+  .staggered-feature-card,
+  .staggered-feature-card.right {
+    margin: 0 1rem;
+    transform: translateY(20px);
+  }
+
+  .staggered-feature-card.visible {
+    transform: translateY(0);
+  }
+}
+
+/* Update the stats-grid styling in the mission section */
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+@media (max-width: 768px) {
+  .stats-grid {
+    grid-template-columns: 1fr;  /* Stack cards vertically on mobile */
+    padding: 0 1rem;  /* Add some padding on sides */
+    gap: 1.5rem;     /* Reduce gap between cards on mobile */
+  }
+
+  .stat-card {
+    width: 100%;     /* Ensure cards take full width of container */
+    margin: 0;       /* Remove any margin */
+    box-sizing: border-box;  /* Include padding in width calculation */
+  }
+
+  .mission-section {
+    padding: 4rem 1rem;  /* Reduce padding on mobile */
+  }
+
+  .mission-section p {
+    padding: 0 1rem;  /* Add some padding to the text */
+  }
+}
+
+/* For medium sized screens */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .stats-grid {
+    grid-template-columns: repeat(2, 1fr);  /* Show 2 cards per row on tablets */
+    padding: 0 2rem;
+  }
+}
+/* Staggered features styles for desktop */
+.features-staggered {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  margin-top: 3rem;
+}
+
+.staggered-feature-card {
+  display: flex;
+  opacity: 0;
+  transform: translateX(-100px);
+  transition: all 0.6s ease-out;
+  width: 100%;
+  max-width: 800px;
+}
+
+.staggered-feature-card.right {
+  margin-left: auto;
+  transform: translateX(100px);
+}
+
+.staggered-feature-card.visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.staggered-content {
+  background-color: var(--card-background-light);
+  padding: 2rem;
+  border-radius: var(--border-radius-standard);
+  box-shadow: var(--shadow-standard-light);
+  width: 100%;
+  transition: var(--transition-standard);
+}
+
+.staggered-content h3 {
+  color: var(--text-primary-light);
+  margin-bottom: 1rem;
+}
+
+.staggered-content p {
+  color: var(--text-secondary-light);
+  line-height: 1.6;
+}
+
+.staggered-content:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+}
+
+.features-section {
+  background-color: var(--background-light);
+  padding: 8rem 0;
+  color: var(--text-primary-light);
+  padding-top: 10rem;
+}
+
+.features-section h2 {
+  color: var(--text-primary-light);
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+  .features-staggered {
+    gap: 1.5rem;
+    padding: 0 1rem;
+  }
+
+  .staggered-feature-card,
+  .staggered-feature-card.right {
+    margin: 0;
+    transform: translateY(20px);  /* Start with slight vertical offset instead */
+    max-width: 100%;  /* Allow cards to take full width */
+  }
+
+  .staggered-feature-card.visible {
+    transform: translateY(0);
+  }
+
+  /* Make the layout match mission section on mobile */
+  .staggered-content {
+    width: 100%;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  /* Adjust padding to match mission section */
+  .features-section {
+    padding: 4rem 0;
+  }
 }
