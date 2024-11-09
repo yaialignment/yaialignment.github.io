@@ -87,14 +87,14 @@ function Home() {
         <title>Yale AI Alignment</title>
         <meta 
           name="description" 
-          content="We are a branch of a student group dedicated to advancing responsible AI development through discussion, career development, and community engagement." 
+          content="Dedicated to reducing catastrophic risks from advanced AI." 
         />
       </Helmet>
       
       <section className="hero">
         <div className="hero-content">
           <h1>Yale AI Alignment</h1>
-          <p className="hero-subtitle">We are a branch of a student group dedicated to advancing responsible AI development through discussion, career development, and community engagement.</p>
+          <p className="hero-subtitle">Dedicated to reducing catastrophic risks from advanced AI.</p>
           <div className="hero-buttons">
             <Link to="https://forms.gle/vmNG2pdZBcdwdU1X6" className="primary-button">YAIA Interest Form</Link>
             <Link to="https://join.slack.com/t/yaleaialignment/shared_invite/zt-2tbqdofqr-AyCDedQdqxYtToi994IR6w" className="secondary-button">YAIA Community Slack</Link>
@@ -106,24 +106,25 @@ function Home() {
         <div className="container">
           <h2>Our Mission</h2>
           <p>
-            We're committed to ensuring artificial intelligence remains beneficial to humanity through rigorous research and thoughtful discourse.
-            To this end, we provide our members with opportunities for deep learning, meaningful engagement, and practical impact in the field of AI alignment:
+          Managing risks from advanced artificial intelligence is one of the most important problems of our time. 
+          We are a community of researchers at Yale aimed at reducing these risks and steering the trajectory of AI development for the better. 
           </p>
           <div className="stats-grid">
             <FeatureCard 
               icon="🔬"
               title="Research"
-              description="Our research efforts span a wide range of topics, from deep technical exploration to understanding AI's societal impacts. We believe every breakthrough, whether large or small, plays a vital role in shaping the future of AI safety and ethics."
+              description="Our research efforts span a range of topics, from technical exploration to understanding societal dynamics around AI."
             />
             <FeatureCard 
               icon="📜"
               title="Policy"
-              description="Crafting sound AI policy requires engagement at all levels—local, national, and international. We work tirelessly to shape meaningful guidelines and regulations that ensure AI serves humanity's best interests, now and in the future."
+              description="Crafting sound AI policy requires engagement at all levels—local, national, and international. We want to shape dialogue on campus towards responsible AI policies."
             />
             <FeatureCard 
               icon="📢"
-              title="Advocacy"
-              description="Whether speaking to thousands about the possible future of AI, or casually conversing with a friend about the small chance of the 'AI Apocalypse', we believe that all forms of advocacy are important, and as such, we strive to promote all forms of it."
+              title="Outreach"
+              description="Whether speaking to thousands about the possible future of AI, or casually conversing with a friend about its potential catastrophic risks, we 
+              believe that all forms of outreach are important."
             />
           </div>
         </div>
@@ -136,25 +137,25 @@ function Home() {
       <StaggeredFeatureCard 
         icon="📚"
         title="Paper Readings"
-        description="Weekly discussions of influential papers in AI alignment, safety, and ethics, helping members stay current with the latest research and developments in the field"
+        description="Weekly discussions of papers in AI alignment, helping members stay current with the latest research in the field"
         isRight={false}
       />
       <StaggeredFeatureCard 
         icon="👥"
         title="Introductory Fellowship"
-        description="An 8-week program introducing key concepts in AI alignment and safety, perfect for newcomers wanting to build a strong foundation in the field while connecting with like-minded peers"
+        description="An 8-week program introducing key concepts in AI alignment, aimed at members wanting to build a strong foundation in the field while connecting with like-minded peers"
         isRight={true}
       />
       <StaggeredFeatureCard 
         icon="🎓"
         title="Speakers Series"
-        description="Regular talks from leading researchers, practitioners, and thought leaders in AI alignment, offering unique insights and perspectives on crucial developments in the field"
+        description="Talks from leading researchers, practitioners, and thought leaders in AI alignment, offering unique insights on developments in the field"
         isRight={false}
       />
       <StaggeredFeatureCard 
         icon="🤝"
         title="Socials"
-        description="Regular community gatherings to build connections, share ideas, and foster collaboration among members passionate about AI safety and alignment"
+        description="Regular community gatherings to build connections, share ideas, and foster collaboration among members passionate about AI alignment"
         isRight={true}
       />
     </div>
@@ -176,7 +177,7 @@ function Home() {
       <section className="cta-section"> 
         <div className="container">
           <h2>Join Our Community</h2>
-          <p>Connect with fellow students passionate about AI safety, attend exclusive events, and contribute to meaningful research and discussions that shape the future of AI development.</p>
+          <p>Connect with fellow students passionate about AI alignment, attend exclusive events, and contribute to meaningful research and discussions that shape the future of AI development.</p>
           <div className="cta-buttons">
             <Link to="https://forms.gle/vmNG2pdZBcdwdU1X6" className="cta-button">YAIA Interest Form</Link>
             <Link to="/join" className="cta-button">YAIA Slack Community</Link>
