@@ -14,9 +14,9 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <div style={{ position: 'sticky', top: 0, zIndex: 1001 }}>
-          <Notificationbar></Notificationbar>
-          <Navbar/>
+        <div style={{ position: 'sticky', top: 0, zIndex: 100 }}>
+          <Notificationbar />
+          <Navbar />
         </div>
         <Routes>
           <Route path="/" element={<Home />} />
