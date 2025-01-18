@@ -14,8 +14,10 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <Notificationbar></Notificationbar>
-        <Navbar/>
+        <div style={{ position: 'sticky', top: 0, zIndex: 1001 }}>
+          <Notificationbar></Notificationbar>
+          <Navbar/>
+        </div>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
@@ -28,4 +30,3 @@ function App() {
 }
 
 export default App;
-
