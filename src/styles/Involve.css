@@ -46,11 +46,11 @@
 }
 
 .link-button {
-  padding: 1.2rem 2.5rem;
+  padding: clamp(0.6rem, 1.5vw, 1.2rem) clamp(1rem, 2vw, 2.5rem);
   border-radius: var(--border-radius-standard);
   text-decoration: none;
   font-weight: 600;
-  font-size: 0.9rem;
+  font-size: clamp(0.7rem, 1.2vw, 0.9rem);
   transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
   letter-spacing: 0.5px;
   text-transform: uppercase;
@@ -59,7 +59,8 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  min-width: 160px;
+  min-width: clamp(100px, 25vw, 160px);
+  white-space: nowrap;
 }
 
 .link-button::before {
@@ -181,7 +182,7 @@
   }
 
   .fellowship-content {
-    padding: 0 1.5rem;
+    padding: 0 2rem;
   }
 
   .faq-grid {
@@ -192,10 +193,14 @@
   .cta-links {
     flex-direction: column;
     gap: 1.5rem;
+    padding: 0 1rem;
   }
 
   .link-button {
     width: 100%;
+    max-width: calc(100% - 2rem);
     text-align: center;
+    min-width: unset;
+    margin: 0 auto;
   }
 }
