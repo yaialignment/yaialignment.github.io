@@ -182,7 +182,7 @@
   }
 
   .fellowship-content {
-    padding: 0 1.5rem;
+    padding: 0 2rem;
   }
 
   .faq-grid {
@@ -193,11 +193,13 @@
   .cta-links {
     flex-direction: column;
     gap: 1.5rem;
+    padding: 0 1rem;
   }
 
   .link-button {
-    width: 100%;
+    width: calc(100% - 2rem);
     text-align: center;
     min-width: unset;
+    margin: 0 auto;
   }
 }
