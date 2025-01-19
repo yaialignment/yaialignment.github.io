@@ -83,7 +83,7 @@
                     <div className={`faq-item ${activeFaq === 3 ? 'active' : ''}`} onClick={() => toggleFaq(3)}>
                       <h4>What should I do if I am already familiar with the curriculum material?</h4>
                       <p>
-                        If you've already familiar with all the material in the curriculum, please email us at yale.ai.alignment@gmail.com to discuss other ways of getting involved with YAIA!
+                        If you've already familiar with all the material in the curriculum, please email us at yale.ai.alignment@gmail.com to discuss other ways of getting involved with YAIA! Also, consider joining our paper reading group!
                       </p>
                     </div>
                   </div>
